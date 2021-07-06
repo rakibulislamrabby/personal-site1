@@ -1,0 +1,129 @@
+@media only screen and (min-width: 992px){
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+     /*navbar start*/
+    .nav-logo{
+        text-align: left;
+    }
+
+    .nav-heading{
+        text-align: right;
+    }
+
+    .navbar-menu{
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .navbar-menu a{
+        background-color:  transparent;
+        padding: 5px 10px;
+        margin: 10px 0;
+    }
+    /*navbar end*/
+
+    /*profile section start*/
+    .profile .top-weather-icon{
+        position: absolute;
+        right: 100px;
+        width: 120px;
+        height: auto;
+        transition: width 2s transform 2s;
+        
+    }
+   
+    .profile .top-weather-icon:hover{
+       transform: rotate(360deg);
+       width: 140;
+   }
+   .profile-desc p{
+    color: gray;
+    text-align: center;
+    width: 95%;
+    margin: 0px auto ;
+    width: 50%;
+    margin-bottom: 10px ;
+}
+
+   .profile .bottom-weather-icon{
+    position: absolute;
+    bottom: 10px;
+    left: 120px;
+    width: 120px;
+    height: auto;
+    transition: width 2s transform 2s;
+    
+}
+
+.profile .bottom-weather-icon:hover{
+   transform: rotate(360deg);
+   width: 140;
+}
+
+    /*profile section end*/
+
+    /*About me section start*/
+
+.aboutme-image{
+     margin-top: 30px;
+}
+
+.aboutme-image img{
+    width: 400px ;
+    height: auto;
+}
+
+.aboutme-desc p{
+    text-align: left;
+}
+    /*About me section end*/
+
+/*Achievement contact form start*/
+.achievement{
+    padding-right: 50px;
+}
+.contact button{
+    
+    width: 150px;
+}
+.contact-links{
+    position: relative;
+}
+.media-button{
+    position: absolute ;
+    margin-top: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+/*Achievement contact form end*/
+/*Footer section start from here*/
+.footer-menu{
+        margin-top:12px;
+}
+
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
+.footer-desc{
+    
+    text-align: center;
+   
+}
+/*Footer section end here*/
+
+}
